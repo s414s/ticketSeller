@@ -1,0 +1,41 @@
+.ticket {
+    width: 900px !important;
+}
+
+.ticket img{
+    filter:brightness(35%);
+    border-radius: 0;
+}
+
+.ticket p{
+    font: 300 14px 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.ticket h4{
+    font: 900 30px 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.ticket h5{
+    font: 900 25px 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.ticket .timetable{
+    font-size: 10px;
+}
+
+.ticket .price {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.ticket .left-ticket .card-img-overlay{
+    padding: 30px 40px 0px 40px;
+}
+
+.ticket .right-ticket{
+    border-left: 5px dashed black;
+    padding: 30px 30px 0px 30px;
+}

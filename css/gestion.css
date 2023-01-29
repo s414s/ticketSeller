@@ -1,0 +1,52 @@
+body {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/rio.jpg");
+    background-position:left top;
+}
+
+.data-form h2{
+    color: white;
+}
+
+.data-form label, p{
+    color: white;
+}
+
+.data-form input, option{
+    border-radius: 0;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.data-form input:focus{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    color: white;
+}
+
+.data-form option:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    color: white;
+    border-radius: 0;
+}
+
+.data-form select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 0; 
+    color: white;
+}
+
+.data-form option:not(:checked) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.data-form button{
+    background-color: rgba(41, 155, 212, 0.9);
+    border-radius: 0;
+    margin-top: 40px;
+    color: white;
+}
