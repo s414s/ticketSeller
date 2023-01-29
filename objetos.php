@@ -67,7 +67,7 @@ class Verification {
   }
 
   function updateLog(){
-    unlink($this->pwdFileName); // <----- eliminacion archivo seguridad para volver a crearlo con registros actualizados
+    unlink($this->pwdFileName);
     
     $targetFile = fopen($this->pwdFileName, "w");
     fwrite($targetFile, $this->rawData);

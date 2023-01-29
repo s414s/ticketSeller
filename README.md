@@ -1,2 +1,2 @@
 # ticketSeller
-An basic ticket administrator
+An basic website to sell tickets
